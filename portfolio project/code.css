@@ -1,0 +1,394 @@
+body{
+    
+    background-color:white;
+    margin: 0;padding: 0;
+
+}
+
+                                                /* navigation bar */
+
+
+
+
+
+nav{
+    
+    background-color: rgb(0 0 0 / 78%);
+    color: #F7F7F8;
+    width: 100%;
+    height: 10vh;
+    border-radius: 0vw 0vw 14.4vw 14.4vw;
+    
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    
+    justify-content: center;
+    margin: 0vh;
+    margin-right: 1vw;
+    padding: 0;
+    align-items: top;
+}
+    
+
+nav ul li{
+    margin: 0vh 1vh;
+    margin-bottom: 1vh;
+    padding: 3vh 2vh;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #C1C1C7;
+    font-family: 'Belgrano', serif;
+    font-size: 1.4 vh;
+}
+nav ul li a:hover {
+    color: #F7F7F8;
+
+}
+
+                                                /* navigation bar   */
+
+                                                /* home page  */
+
+
+
+
+.homeimage{
+    display: flex;
+    margin: 1vw 0vw 0vw 2.5vw;
+    padding: 0;
+    height: 100vh;
+    width: 95%;
+    background-color: black;
+    background-image: url(bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center;
+    border-radius: 2.4vw;
+}
+
+ 
+.fader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0vw;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    background-color:rgb(0 0 0 / 35%);
+    background-size: cover ;
+    background-position: center;
+    border-radius: 2.3vw;
+}
+
+h1{
+    margin: 0;padding: 0;
+    color: #fff82a;;
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    font-size: 3.5vw;
+    justify-content: center;
+    
+}
+.quots{
+    color: whitesmoke;
+    font-size: 3vh;
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    top: 13vh;
+}
+#coder{
+    font-family: 'Pacifico', cursive;
+    color: rgba(236, 57, 81, 0.959);
+}
+
+#hey{
+    font-family: 'Pacifico', cursive;
+    color: #fff82a;;
+    margin-left: 18vw;
+
+}
+
+.aboutlink{
+    position: absolute;
+    bottom: 18vh;
+    font-size: 1.5vw;
+}
+.aboutlink a{
+    text-decoration: none;
+    color: rgb(35 232 196);
+    font-family: 'Belgrano', serif;
+}
+.aboutlink a:hover {
+    text-decoration: underline;
+}
+
+                                                /* home page  */
+
+                                                /* about page  */
+
+
+
+.aboutimage{
+    display: flex;
+    margin: 1.5 0vw 0vw 2.5vw;
+    margin-top: 1.5vw;
+    margin-left: 2.5vw ;
+    padding: 0;
+    height: 100vh;
+    width: 95%;
+    background-color: #F5F7F5;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center;
+    border-radius: 2.4vw;
+}
+
+
+.headbox{
+    margin: 0;padding: 0;
+    margin-top: 10.5vh;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    position: absolute;
+    justify-content: center;
+    width: 95%;
+    font-size: 4vw;
+}
+.better{
+    font-size: 4.5vw;
+    font-family: 'Satisfy', cursive;
+    font-weight: 900;
+    top: 19.5vh;
+    left: 42vw;
+    position: relative;
+    color:#FF00FF;
+    background-color: #F5F7F5;
+    height: 5vw;
+
+}
+    
+
+#myimageleft{
+    height: 45vh;
+    width: 12vw;
+    border-radius: 2.3vw;
+    border-width: 1vw;
+    border-color: black;
+    position: relative;
+    top: 30vh;
+    left: -4vw;
+}
+#myimageright{
+    height: 45vh;
+    width: 12vw;
+    border-radius: 2.3vw;
+    border-width: 1vw;
+    border-color: black;
+    position: relative;
+    top: 30vh;
+    right: 0vw;
+}
+.aboutcontent{
+    padding: 2vw;
+    background-image: url(pawel-czerwinski-Qiy4hr18aGs-unsplash.jpg);
+    background-size: cover;
+    position: relative;
+    top: 37vh;
+    width: 47vw;
+    height: 40vh;
+    left: -2vw;
+    border-radius: 4.3vw 0.6vw 4.3vw 0.6vw;
+    font-family: 'Inter', sans-serif;
+    font-size: 1vw;
+    font-weight: bolder ;
+}
+
+                                                /* about page  */
+
+                                                /* skills page  */
+
+
+.skillsec{
+    display: flex;
+    padding: 3%;
+    justify-content:center;
+    align-content: center;
+}
+.skillsimage-one{
+    position: relative;
+    margin: 20vh 4vw;
+    padding: 0;
+    height: 75vh;
+    width: 25%;
+    bottom: 4vh;
+    background-color: rgba(210 188 188 / 13%);
+    background-image: url(bg4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 2.4vw;
+}
+
+.skillsimage-two{
+    position: relative;
+    margin: 20vh 4vw;
+    padding: 0;
+    height: 75vh;
+    width: 25%;
+    bottom: 26vh;
+    background-color: rgba(210 188 188 / 13%);
+    background-image: url(bg4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 2.4vw;
+}
+.skillsimage-three{
+    position: relative;
+    margin: 20vh 4vw;
+    margin-bottom:20vh ;
+    padding: 0;
+    height: 75vh;
+    width: 25%;
+    bottom: 4vh;
+    background-color: rgba(210 188 188 / 13%);
+    background-image: url(bg4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 2.4vw;
+    border-color: blue;
+    border-width: 1vh;
+}
+
+.txt{
+    font-family: 'Inter', sans-serif;
+    font-size: 5.6vh;
+    color: #FDB750;
+}
+
+.skillsfader p{
+    font-family: 'Belgrano', serif;
+    color: white;
+}
+
+.skillsfader{
+    position: relative;
+    margin: 0vh;
+    padding: 4vh 01vw 0vh 1vw;
+    height: 75vh;
+    width: 100%;
+    background-color:rgb(56 255 0 / 6%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 2.4vw;
+}
+.skillsfader span{
+    font-family: 'Pacifico', cursive;
+    font-size: 4.5vw;
+    color:#870A30;
+    position: relative;
+    bottom: -21vh;
+    left: 2%;
+}
+
+.skillsfader div a{
+    font-size: 3vh;
+    text-decoration: none;
+    font-family: 'Belgrano', serif;
+    color: #145DA0;
+    position: relative;
+    bottom: -22vh;
+    left: 0%;
+}
+
+
+#resume-btn{
+    padding: 1vh;
+    background-color: #145DA0;
+    color: white;
+    border-radius: 3.3vh;
+}
+.skillsfader a:hover{
+    text-decoration: underline;
+}
+
+
+                                                    /* skills page  */
+
+                                                    /* contact page  */
+
+
+
+footer{
+    
+    margin: 0;padding: 0;
+    height: 45vh;
+    width: 100%;
+    background-color:  rgb(0 0 0 / 32%);
+    font-family: 'Inter', sans-serif;
+}
+
+footer div h{
+    font-size:2.5vw ;
+    margin-left: 37vw;
+    font-weight: 800;
+    
+}
+
+footer a{
+    text-decoration: none;
+    color:  rgb(0 0 0 / 77%);
+}
+
+footer ul li{
+    display: inline-block;
+    list-style: none;
+    border-radius: 1.3vw;
+}
+
+.icon{
+    height: 12vh;
+    width: 5.6vw;
+    margin: 4vh;
+    padding: 1vw;
+    border-radius: 2.3vw;
+}
+
+.social-apps{
+    display: flex;
+    height: 24vh;
+    align-content: center;
+    justify-content: center;
+}
+.social-apps li:hover{
+    background-color:  rgb(0 0 0 / 8%);
+}
+
+.connect {
+    display: flex;
+    justify-content: center;
+    height: 13vh;
+}
+
+.connect li{
+    padding: 3vw 3vw 0vw 3vw ;
+
+}
+
+.connect a:hover{
+    color: black;
+}
+
+
+
+
+
+                                                        /* contact page  */

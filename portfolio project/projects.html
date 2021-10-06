@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icon.jpg">
+    <link rel="stylesheet" href="code.css">
+    <title>A's-Project</title>
+    <style>
+        body{
+            margin: 3vh 1.5vw;
+            background-repeat: no-repeat;
+           background-color: white;
+            background-size: cover;
+            
+        }
+        .projects{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            background-color: #C8B4D0;
+            margin: 1vw 0vw 0vw 2.5vw;
+            padding: 0;
+            height: 95vh;
+            width: 95%;
+            background-repeat: no-repeat;
+            background-size: cover ;
+            background-position: center;
+            border-radius: 2.4vw;
+            border-width: 1vw;
+            border-color: #523A28;
+        }
+
+        img{
+            position: relative;
+            top:3vh;
+            left: 9vw;
+            height: 70vh;
+            width: 30vw;
+            animation: unicorn;
+            animation-duration: 1000ms;
+            animation-iteration-count: infinite;
+            animation-timing-function:ease-in-out;
+
+        }
+        @keyframes unicorn{
+            0%{
+                height: 70vh;
+                width: 30vw;
+            }
+            25%{
+                height: 78vh;
+                width: 35vw;
+                transform: rotate(10deg);
+            }
+            50%{
+                height: 78vh;
+                width: 36vw;
+                transform: rotate(-10deg);
+            }
+            75%{
+                height: 78vh;
+                width: 37vw;
+                transform: rotate(10deg);
+            }
+
+            100%{
+                height: 78vh;
+                width: 38vw;
+                transform: rotate(-10deg);
+            }
+
+        }
+
+        h1{
+            margin: 0;
+            padding: 0;
+            color:#F51720;
+            position: absolute;
+            font-family: 'Inter', sans-serif;
+            font-size: 3.5vw;
+            position: relative;
+            top: 80vh;
+            right: 12vw;
+            animation: h1;
+            animation-duration: 1000ms;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+        }
+       
+        
+    </style>
+</head>
+<body>
+    <div class="projects">
+        <div><img src="error-image.png" alt=""></div>
+        <div class="oops"><h1> OOPZ! </h1></div>
+        
+    </div>
+    
+</body>
+</html>
